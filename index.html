@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logica Difusa</title>
+</head>
+<body>
+  <h1>Logica Difusa</h1>
+  <div>
+    Temperatura <input type="text" placeholder="Ingresar Temperatura" name="temperatura" id="temperatura">
+  </div>
+  <br>
+  <div>
+    ¿Ardor en Garganta?
+    <select name="selectgarganta" id="selectgarganta">
+      <option value=0.3>NO</option>
+      <option value=0.6>SI</option>
+    </select>
+  </div>
+  <br>
+  <div>
+    ¿Perdida del Gusto?
+    <select name="selectgusto" id="selectgusto" >
+      <option value=0.3>NO</option>
+      <option value=0.6>SI</option>
+    </select>
+  </div>
+  <br>
+  <div>
+    ¿Perdida del Olfato?
+    <select name="selectolfato" id="selectolfato">
+      <option value=0.3>NO</option>
+      <option value=0.6>SI</option>
+    </select>
+  </div>
+  <br>
+  <input type="button" value="Enviar" id="enviar">
+  <div id="resultado">
+    
+  </div>
+  <script src="logicadifusa.js" type="module"></script></script>
+  <script src="membresias.js" type="module"></script>
+</body>
+</html>
